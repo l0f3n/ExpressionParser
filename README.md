@@ -3,7 +3,10 @@
 Simple mathematical expression parser and evaluator.
 
 Features:
- * Variables
+ * Variables: t, ...
+ * Constants: e, pi, ...
+ * Functions: sin, log, sqrt, ...
+ * Absolute value: |expr| => abs(expr)
  * Respects operator precedence: 1 + 2 * 3 => (1 + (2 * 3))
  * Implicit multiplication: 3x => 3 * x
 
